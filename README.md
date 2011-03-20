@@ -13,13 +13,22 @@
 			<li>
 				<strong>jQuery-1.5.1.min.js</strong> - jQuery
 			</li>
+			<li>
+				<strong>wwJsLib.js</strong> - aktuelle funksjoner
+			</li>
 		</ul>
 	</li>
 	<li>
 		CSS
 		<ul>
 			<li><strong>reset.css</strong> - for å "nullstille" alle browser-styling (Eric Meyer)</li>
-			<li><strong>main.css</strong> - standard working CSS vi jobber på=) (Tri o/)</li>
+			<li><strong>main.css</strong> - standard working CSS</li>
+		</ul>
+	</li>
+	<li>
+		HTML
+		<ul>
+			<li><strong>index.html</strong> - standard working HTML</li>
 		</ul>
 	</li>
 	
