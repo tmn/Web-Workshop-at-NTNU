@@ -27,13 +27,28 @@
 <h3>Snippets</h3>
 
 <p>Få applikasjonen til å oppføre seg som en "native"-applikasjon på en device<br>
-<span style="font-style: oblique;">&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot;&gt;</span></p>
+&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot;&gt;</p>
 
 <p>Setter viewport til device-standard (kan spesifiseres)<br>
-<span style="font-style: oblique;">&lt;meta name=&quot;viewport&quot; content=&quot;width = device-width, user-scalable = no&quot; /&gt;</span></p>
+&lt;meta name=&quot;viewport&quot; content=&quot;width = device-width, user-scalable = no&quot; /&gt;</p>
 
 <p>Splash-screen ved oppstart av applikasjonen<br>
-<span style="font-style: oblique;">&lt;link rel=&quot;apple-touch-startup-image&quot; href=&quot;startup.png&quot;&gt;</span></p>
+&lt;link rel=&quot;apple-touch-startup-image&quot; href=&quot;startup.png&quot;&gt;</p>
 
 <p>Eget ikon på "homescreen"<br>
-<span style="font-style: oblique;">&lt;link rel=&quot;apple-touch-icon&quot; href=&quot;fav.png&quot;&gt;</span></p>
+&lt;link rel=&quot;apple-touch-icon&quot; href=&quot;fav.png&quot;&gt;</p>
+
+
+<h2>Workshopen (draft)</h2>
+<ul>
+	<li>Remote debugging på device. Aktuelt for de med Android-telefoner.<br>- du trenger Opera Mobile</li>
+	<li>Remote debugging med Opera Mobile emulator for desktop</li>
+</ul>
+<strong>Vi tar for oss blant annet</strong>
+<ul>
+	<li>Forms</li>
+	<li>Media queries</li>
+	<li>CSS3 transitions</li>
+	<li>Local storage</li>
+	<li>Video / Audio</li>
+</ul>
