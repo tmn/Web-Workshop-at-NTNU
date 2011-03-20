@@ -1,5 +1,5 @@
-<h1>Web Workshop: HTML5, CSS3 and web applications</h1>
-<p><strong>by</strong> <a href="mailto:trimn@myopera.com">Tri M. Nguyen</a><br>
+<h1>Web Workshop: HTML5, CSS3 and web applications (draft)</h1>
+<p><strong>by</strong> <a href="mailto:trimn@myopera.com">Tri M. Nguyen</a> - 4. April 2011<br>
 <strong>Event at <a href="https://online.ntnu.no/event/159/">https://online.ntnu.no/event/159/</a></strong></p>
 
 <h3>Code description</h3>
@@ -43,15 +43,16 @@
 <h2>Workshopen (draft)</h2>
 <ul>
 	<li>Remote debugging på device. Aktuelt for de med Android-telefoner.<br>
-		- du trenger <a href="https://market.android.com/details?id=com.opera.browser&amp;feature=search_result">Opera Mobile</a></li>
+		- du trenger <a href="https://market.android.com/details?id=com.opera.browser&amp;feature=search_result">Opera Mobile</a> og <a href="http://www.opera.com/browser/">Opera for desktop</a></li>
 	<li>Remote debugging med Opera Mobile emulator for desktop<br>
 		- <a href="http://www.opera.com/developer/tools/">Opera Developer tools</a></li>
 </ul>
 <strong>Vi tar for oss blant annet</strong>
 <ul>
 	<li>HTML Forms</li>
+	<li>Web fonts</li>
+	<li>Video- og audio-elementene</li>
 	<li>Media queries</li>
 	<li>CSS3 transitions</li>
 	<li>Local storage</li>
-	<li>Video- og audio-elementene</li>
 </ul>
