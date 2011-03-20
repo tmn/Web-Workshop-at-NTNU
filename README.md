@@ -25,11 +25,15 @@
 </ul>
 
 <h3>Snippets</h3>
+
 <p>Få applikasjonen til å oppføre seg som en "native"-applikasjon på en device<br>
-&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot;&gt;</p>
+<span style="font-style: italic">&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot;&gt;</span></p>
+
 <p>Setter viewport til device-standard (kan spesifiseres)<br>
-&lt;meta name=&quot;viewport&quot; content=&quot;width = device-width, user-scalable = no&quot; /&gt;</p>
+<span style="font-style: italic">&lt;meta name=&quot;viewport&quot; content=&quot;width = device-width, user-scalable = no&quot; /&gt;</span></p>
+
 <p>Splash-screen ved oppstart av applikasjonen<br>
-&lt;link rel=&quot;apple-touch-startup-image&quot; href=&quot;startup.png&quot;&gt;</p>
+<span style="font-style: italic">&lt;link rel=&quot;apple-touch-startup-image&quot; href=&quot;startup.png&quot;&gt;</span></p>
+
 <p>Eget ikon på "homescreen"<br>
-&lt;link rel=&quot;apple-touch-icon&quot; href=&quot;fav.png&quot;&gt;</p>
+<span style="font-style: italic">&lt;link rel=&quot;apple-touch-icon&quot; href=&quot;fav.png&quot;&gt;</span></p>
