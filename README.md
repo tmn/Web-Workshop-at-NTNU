@@ -1,6 +1,7 @@
 <h1>Web Workshop: HTML5, CSS3 and web applications</h1>
+<p><strong>Event at <a href="https://online.ntnu.no/event/159/">https://online.ntnu.no/event/159/</a></strong></p>
 
-<h3>Code</h3>
+<h3>Code description</h3>
 <ul>
 	<li>
 		JavaScript
