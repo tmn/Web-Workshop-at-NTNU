@@ -67,4 +67,7 @@
 <p>Eget ikon på "homescreen"<br>
 &lt;link rel=&quot;apple-touch-icon&quot; href=&quot;fav.png&quot;&gt;</p>
 
-
+<h3>Nyttige lenker</h3>
+<ul>
+	<li><a href="http://jquery.com/">jQuery</a></li>
+</ul>
