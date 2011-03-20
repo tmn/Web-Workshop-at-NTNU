@@ -16,8 +16,8 @@
 	<li>
 		CSS
 		<ul>
-			<li>reset.css</li> - får å "nullstille" alle browser-styling (Eric Meyer)</li>
-			<li>main.css</li> - standard working CSS vi jobber på=) (Tri o/)
+			<li><strong>reset.css</strong> - får å "nullstille" alle browser-styling (Eric Meyer)</li>
+			<li><strong>main.css</strong> - standard working CSS vi jobber på=) (Tri o/)</li>
 		</ul>
 	</li>
 	
