@@ -41,15 +41,16 @@
 
 <h2>Workshopen (draft)</h2>
 <ul>
-	<li>Remote debugging på device. Aktuelt for de med Android-telefoner.<br>- du trenger Opera Mobile</li>
-	<li>Remote debugging med Opera Mobile emulator for desktop</li>
+	<li>Remote debugging på device. Aktuelt for de med Android-telefoner.<br>
+		- du trenger <a href="https://market.android.com/details?id=com.opera.browser&amp;feature=search_result">Opera Mobile</a></li>
+	<li>Remote debugging med Opera Mobile emulator for desktop<br>
+		- <a href="http://www.opera.com/developer/tools/">Opera Developer tools</a></li>
 </ul>
 <strong>Vi tar for oss blant annet</strong>
 <ul>
-	<li>Forms</li>
+	<li>HTML Forms</li>
 	<li>Media queries</li>
 	<li>CSS3 transitions</li>
 	<li>Local storage</li>
-	<li>Video / Audio</li>
-	
+	<li>Video- og audio-elementene</li>
 </ul>
