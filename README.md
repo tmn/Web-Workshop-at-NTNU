@@ -2,7 +2,7 @@
 <p><strong>by</strong> <a href="mailto:trimn@myopera.com">Tri M. Nguyen</a> - 4. April 2011<br>
 <strong>Event at <a href="https://online.ntnu.no/event/159/">https://online.ntnu.no/event/159/</a></strong></p>
 
-<p>Vi benytter oss av NTNUs nye emnedata-APIer (forslag)<br>
+<p>Vi benytter oss av NTNUs nye emnedata-APIer (forslag - Tri må mekke JSON-parser-ish-sak i JS først)<br>
 	- <a href="http://www.ime.ntnu.no/api/emne/">Emne-API (BETA)</a></p>
 <ul>
 	<li>Remote debugging på device. Aktuelt for de med Android-telefoner.<br>
