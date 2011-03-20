@@ -1,6 +1,6 @@
 <h1>Web Workshop: HTML5, CSS3 and web applications</h1>
-<p><strong>by</strong> <a href="mailto:trimn@myopera.com">Tri M. Nguyen</a></p> 
-<p><strong>Event at <a href="https://online.ntnu.no/event/159/">https://online.ntnu.no/event/159/</a></strong></p>
+<p><strong>by</strong> <a href="mailto:trimn@myopera.com">Tri M. Nguyen</a><br>
+<strong>Event at <a href="https://online.ntnu.no/event/159/">https://online.ntnu.no/event/159/</a></strong></p>
 
 <h3>Code description</h3>
 <ul>
