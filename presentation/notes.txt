@@ -1,0 +1,60 @@
+HTML4
+- text
+- password
+- checkbox
+- radio
+- submit
+- reset
+- file
+- hidden
+- image
+- button
+
+New in HTML5
+- search
+- tel
+- url
+- email
+- datetime
+- date
+- color
+- month
+- week
+- time
+- datetime-local
+- number
+- range
+
+Media Queries (MQ)
+- 
+
+
+HTML5
+- forms
+	- placeholder
+	- autofocus
+	- required
+	- min / max
+	- step
+	- pattern
+- media quries
+	- demo fra 
+- audio
+- video
+
+Advantage
+- Less JavaScript! More speedy pages
+- User Interface enhancements
+
+Disadvantage
+- Not well-supported by currently-used browsers
+- Little to no control over native UI in most browsers.
+- Pattern validation is not consistent across browsers.
+
+
+CSS3
+- transition
+
+Apps
+- offline storage
+- 

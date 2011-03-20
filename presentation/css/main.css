@@ -1,0 +1,122 @@
+div.slide + div.slide {
+	page-break-before: always;
+}
+
+div.slide {
+	overflow: hidden;
+}
+
+div.slideContent {
+	padding: 5%;
+}
+
+#frame + div.slide > div.slideContent {
+}
+#titlePage {
+}
+#titlePageContent {
+	position: absolute;
+	width: 100%;
+	top: 40%;
+	bottom: -60%;
+}
+
+
+
+
+#titlePageContent > h1 {
+	font-size: 3.5em;
+}
+#titlePageContent > h2 {
+	font-size: 1.3em;
+	margin: .8em 0 0 0;
+	color: #666;
+}
+#presentation_description {
+	margin: 3em 0 0 0;
+}
+#presentation_description span {
+	display: block;
+	font-size: .8em;
+	color: #888;
+	line-height: 1.3em;
+}
+
+#presentation_description #date {
+	margin: 2em 0 0 0;
+	font-size: 0.8em;
+}
+
+
+
+#logo {
+	z-index: 2;
+	position: fixed;
+	bottom: 5px;
+	right: 5%;
+	max-width: 20%;
+	font-size: .7em;
+	color: #000;
+}
+
+#logo img {
+	width: 100%;
+}
+#logo_html5 {
+	position: absolute;
+	top: 20%;
+	left: 30%;
+}
+
+#lowerFrame {
+	z-index: 2;
+	position: fixed;
+	font-size: 13px;
+	background: #aaa!important;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	opacity: 0.4;
+}
+#lowerFrameContent {
+	padding: 0 30px;
+}
+h4 {
+	color: #FFF;
+	font-size: 22px;
+	display: inline;
+}
+#lowerFrameRightContent {
+	float: right;
+}
+
+#lowerFrame ul li {
+	float: left;
+	padding: 0 0 0 20px;
+}
+#lowerFrame a {
+	color: #222;
+	text-decoration: none;
+}
+a.promote {
+	padding: 0 0 0 30px;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+input {
+	width: 200px;
+}
+input[type=range] {
+	width: 180px;
+}
+
+td.col1 {
+	width: 150px;
+	padding: 15px 150px 25px 0;
+}
+
+td.col1 + td {
+	color: #aaa;
+}

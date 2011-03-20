@@ -1,0 +1,73 @@
+Ian Hicks
+HTML5 is direct competition with other technologies. Partically Adobe Flash and Microsoft Silverlight.
+
+
+
+
+
+browser arent so much competing each other
+
+as competing with propertiary technologies for building applications
+
+
+
+
+Startet i Opera 2003 grunnet W3C sa at de ikke ville utvikle HTML ... fremtidig er XML... 
+
+startet proof of concept med backward compatible... Mozilla ble med i gamet, Apple fra sidelinjen. Opera-mannen gikk til Google.
+
+Tim Bernes Lee 2006 - future er ikke XML, vi fortsetter HTML... ville bruke specen Web Applications 1.0. ble til HTML5 da W3C tok over.
+
+For første gang jobber 5 store vendors sammen om en spesifikasjon..
+
+
+chairman lead developer for internet Explorer, Chris Wilson,  W3c Working group
+
+
+
+HTML5- error handling.
+
+Når browsere møter ugyldig har de mekanismer hvor alle browsere løser problemet på samme måte.
+
+Kan skrives med XHTML syntax
+
+
+
+
+
+Ian Hickson analyserte med Googles data hva folk gjør på weben.
+
+
+
+klassenavn (footer, header, nav etc.)
+
+HTML5 specen definerer disse elementene
+
+Bra for screen-readers for blinde etc.
+
+IE vil ikke la deg style HTML-elementene
+
+Firefox 2 og Camino 1.0 bruker gecko med bug... Du må servce HTML som XML
+
+
+
+Section/article - > syndicating  makes sense
+
+ikke restricted til h1 - h6
+
+
+
+
+
+Specen blir får aldri statusen ferdig 
+
+two independend interoperable implementations
+
+Trenger to forskjellige browser-vendors til for at specen kan bli sett på som ferdig.
+
+
+DOCTYPE = go to standard mode
+
+
+style eller script trenger ikke type css eller type javascript... Browseren håndterer dette.
+
