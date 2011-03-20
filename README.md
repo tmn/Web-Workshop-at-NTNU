@@ -50,6 +50,8 @@
 
 
 <h2>Workshopen (draft)</h2>
+<p>Vi benytter oss av NTNUs nye emnedata-APIer (forslag)<br>
+	- <a href="http://www.ime.ntnu.no/api/emne/">Emne-API (BETA)</a></p>
 <ul>
 	<li>Remote debugging på device. Aktuelt for de med Android-telefoner.<br>
 		- du trenger <a href="https://market.android.com/details?id=com.opera.browser&amp;feature=search_result">Opera Mobile</a> og <a href="http://www.opera.com/browser/">Opera for desktop</a></li>
