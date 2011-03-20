@@ -17,9 +17,19 @@
 	<li>
 		CSS
 		<ul>
-			<li><strong>reset.css</strong> - får å "nullstille" alle browser-styling (Eric Meyer)</li>
+			<li><strong>reset.css</strong> - for å "nullstille" alle browser-styling (Eric Meyer)</li>
 			<li><strong>main.css</strong> - standard working CSS vi jobber på=) (Tri o/)</li>
 		</ul>
 	</li>
 	
 </ul>
+
+<h3>Snippets</h3>
+<p>Få applikasjonen til å oppføre seg som en "native"-applikasjon på en device<br>
+&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot;&gt;</p>
+<p>Setter viewport til device-standard (kan spesifiseres)<br>
+&lt;meta name=&quot;viewport&quot; content=&quot;width = device-width, user-scalable = no&quot; /&gt;</p>
+<p>Splash-screen ved oppstart av applikasjonen<br>
+&lt;link rel=&quot;apple-touch-startup-image&quot; href=&quot;startup.png&quot;&gt;</p>
+<p>Eget ikon på "homescreen"<br>
+&lt;link rel=&quot;apple-touch-icon&quot; href=&quot;fav.png&quot;&gt;</p>
