@@ -2,7 +2,6 @@
 <p><strong>by</strong> <a href="mailto:trimn@myopera.com">Tri M. Nguyen</a> - 4. April 2011<br>
 <strong>Event at <a href="https://online.ntnu.no/event/159/">https://online.ntnu.no/event/159/</a></strong></p>
 
-<h2>Workshopen (draft)</h2>
 <p>Vi benytter oss av NTNUs nye emnedata-APIer (forslag)<br>
 	- <a href="http://www.ime.ntnu.no/api/emne/">Emne-API (BETA)</a></p>
 <ul>
