@@ -1,0 +1,11 @@
+Dette kurset gir en liten __innføring i weben__. Vi ser på nye elementer og attributter i HTML5 og CSS3, og ser hvordan de fungerer i praksis. Vi ser også på muligheten for debugging av nettsider og applikasjoner fra en mobil enhet*.
+
+Oppgaven vi kjører gjennom sammen vil gå ut på å konstruere en enkel applikasjon som benytter seg av LocalStorage til å lagre data lokalt, samt prøver oss på media queries for å tilpasse applikasjonen til nettleserenses forskjellige viewports. 
+
+
+Forberedelser før kurset
+* en god teksteditor (din yndlingsedtor)
+* en god nettleser (for ordens skyld har vi størst fokus på WebKit[Chrome, Safari etc.] og Presto[Opera] -nettleserne)
+*(__*__) for remote debugging mot device
+	* android-device med Opera Mobile / Opera Mobile Simulator for desktop
+	* Opera installert på desktop

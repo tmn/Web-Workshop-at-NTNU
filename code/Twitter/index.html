@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset=utf-8>
+	<title>Web Workshop: HTML5, CSS3 and web applications</title>
+	
+	<!-- setter bredden på siten til viewport. Ingen skalering -->
+	<meta name="viewport" content="width = device-width, user-scalable = no" />
+	
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	
+	<script src="js/html5.js"></script>
+	<script src="js/jquery-1.5.1.min.js"></script>
+	<script src="js/date.js"></script>
+	
+	<script>
+		
+		/**
+		* Fetching tweets from search
+		* @author tmn
+		*/	
+		var tweetSearch = function(str) {
+			this.url = 'http://search.twitter.com/search.json?callback=?&q=';
+			this.query = str.replace('#', '%23');
+
+			// resetter tweetList
+			$('#tweetList').html("");
+			
+			
+			$.getJSON(this.url + this.query, function(json) {
+				$.each(json.results, function(i, twitter) {
+					
+					
+					// finn lenker og gjør dem om til noe klikkbart
+					var tweet = (twitter.text).replace(/https?:\/\/([-\w\.]+)+(:\d+)?(\/([\w\/_\.]*([-_]*[A-Za-z]*.[A-Za-z]*\/?)?(\?\S+)?)?)?/g, '<a href="http://$1$3">$1$3</a>');
+					
+					
+					// finn alle Twitter-navn og gjør de klikkbar
+					tweet = tweet.replace(/([@]\w*)/g, '<a href="http://twitter.com/$1">$1</a>');
+					
+					var tweetImage 	= twitter.profile_image_url;
+					var tweetDate 		= (twitter.created_at).substring(0, 25);
+					var tweetUser		= twitter.from_user;
+					
+					
+					// append tweets til lista
+					$('#tweetList').append('<li class="tweet'+i+'"><span class="tweet'+i+'">'+tweetUser+'</span> -- '+tweet+'<span class="more_info"><img src="'+tweetImage+'" alt="">'+tweetDate+'</span></li>');
+					
+					$('li.tweet' + i + ' .more_info').width(0);
+					$('li.tweet' + i + ' .more_info').height(0);
+							
+					// append click handler til hver tweet
+					$('span.tweet' + i).click(function() {
+						if ($('li.tweet' + i + ' .more_info').hasClass('visible')) {
+							$('li.tweet' + i + ' .more_info').width(0);
+							$('li.tweet' + i + ' .more_info').height(0);
+							$('li.tweet' + i + ' .more_info').removeClass('visible');
+						} else {
+							var scrollX = window.pageXOffset;
+							var scrollY = window.pageYOffset;
+							$('li.tweet' + i + ' .more_info').addClass('visible');
+							$('li.tweet' + i + ' .more_info').width($(window).width());
+							$('li.tweet' + i + ' .more_info').height($(window).height());
+						}
+					});
+					
+					
+				});
+			});
+		}
+
+
+		// script som laster når DOM er ferdig innlastet (ala onload thingy)
+		window.onload = function() {
+			
+			// append keypress handler til søkefeltet. Trigger når noen trykker på Enter/Return
+			$('#tweetSearch').keypress(function(e) {
+				if (e.which == 13 || e.which == 10) {
+					$('#tweetList').append('<p>Your search: ' + $('#tweetSearch').val()+'</p>');
+					
+					var test = new tweetSearch($('#tweetSearch').val());
+					
+				}
+			});
+			
+			var test = new tweetSearch('itmn');
+
+		}
+
+		
+	</script>
+	
+	<style>
+		body {
+			background: #efefef;
+			font: 12px/18px arial, sans-serif;
+		}
+		
+
+		#tweetList {
+			background: #FFF;
+			padding: 5px;
+			margin: 5px;
+			border-radius: 5px;
+		}
+		
+		ul#tweetList li {
+			padding: 10px 0;
+			border-bottom: 1px dotted #DDD;
+		}
+		
+		.more_info {
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 1000;
+			background-color: rgba(0, 0, 0, 0.8);
+			color: #FFF;
+			display: block;
+			
+			
+			opacity: 0;
+			
+			-o-transform: scale(0, 0);
+			-webkit-transofmr: scale(0, 0);
+			
+			-o-transition-delay: 0.25s;
+			-webkit-transition-delay: 0.25s;
+			
+			-o-transition-duration: 0.5s;
+			-webkit-transition-duration: 0.5s;
+		}
+		
+		.more_info.visible {
+			opacity: 1;
+			-o-transform: scale(1, 1);
+			-webkit-transform: scale(1, 1);
+		}
+	</style>
+</head>
+
+<body>
+	
+	<header>
+		<h1>Search for twiiiitz</h1>
+	</header>
+	
+	<nav></nav>
+	
+	
+	<div id="container">
+	
+		<input autofocus type="text" id="tweetSearch">
+		
+		<ul id="tweetList">
+			
+		</ul>
+	</div>
+	
+	<footer></footer>
+	
+</body>
+
+</html>

@@ -6,7 +6,33 @@
 		<link rel="stylesheet" type="text/css" href="css/reset.css" media="all">
 		<link rel="stylesheet" type="text/css" href="css/style.css" media="all">
 		<link rel="stylesheet" type="text/css" href="css/main.css" media="projection">
-		
+		<link rel="stylesheet" type="text/css" href="css/info.css" media="all">
+		<script src="js/jquery-1.5.1.min.js"></script>
+		<script>
+			$(window).ready(function() {
+				$('td').click(function() {
+					
+					if ($(this).hasClass('formTel')) {
+						$('#formTel').addClass('visible');
+					}
+					else if ($(this).hasClass('formNumber')) {
+						$('#formNumber').addClass('visible');
+					}
+					else if ($(this).hasClass('formSearch')) {
+						$('#formSearch').addClass('visible');
+					}
+					else if ($(this).hasClass('formEmail')) {
+						$('#formEmail').addClass('visible');
+					}
+					
+				});
+				
+				$('.close').click(function() {
+					$(this).parent().removeClass('visible')
+				});
+
+			});
+		</script>
 	</head>
 	<body>
 		<div id="frame">
@@ -57,15 +83,15 @@
 		<div class="slide">
 			<div class="slideContent">
 				<h3>HTML5 - forms</h3>
-				<form method="POST" action="First.html">
+				<form method="POST" action="index.html">
 					<table>
 						<tr>
 							<td class="col1"><input type="number" name="number"></td>
-							<td>&lt;input type=&quot;number&quot; name=&quot;number&quot;&gt;</td>
+							<td class="formNumber">&lt;input type=&quot;number&quot; name=&quot;number&quot;&gt; *</td>
 						</tr>
 						<tr>
 							<td class="col1"><input type="tel" name="tel"></td>
-							<td>&lt;input type=&quot;tel&quot; name=&quot;tel&quot;&gt;</td>
+							<td class="formTel">&lt;input type=&quot;tel&quot; name=&quot;telefonnummer&quot;&gt; *</td>
 						</tr>
 						<tr>
 							<td class="col1">
@@ -87,28 +113,29 @@
 						</tr>
 						<tr> 
 							<td class="col1"><input type="search" name="search"></td>
-							<td>&lt;input type=&quot;search&quot; name=&quot;search&quot;&gt;</td>
+							<td class="formSearch">&lt;input type=&quot;search&quot; name=&quot;søkestreng&quot;&gt; *</td>
 						</tr>
 						<tr>
 							<td class="col1">
 								<input type="text" list="mylist" name="list">
-								<datalist id="mylist">
+								<datalist id="minListe">
 									<option label="Mr" value="Mister">
 									<option label="Mrs" value="Mistress">
 									<option label="Ms" value="Miss">
 								</datalist>
 							</td>
-							<td>&lt;input type=&quot;number&quot; name=&quot;number&quot;&gt;</td>
+							<td>&lt;input type=&quot;text&quot; name=&quot;list&quot; list=&quot;minListe&quot;&gt;</td>
 						</tr>
 						<tr>
 							<td class="col1"><input type="text" name="text" placeholder="placeholder text" required></td>
 							<td>&lt;input type=&quot;text&quot; name=&quot;text&quot;&gt;</td>
 						</tr>
 						<tr>
-							<td class="col1"><input type="email" name="email"></td>
-							<td>&lt;input type=&quot;email&quot; name=&quot;email&quot;&gt;</td>
+							<td class="col1"><input type="email" name="email" autocomplete="off" pattern="[\w]+@[\w]+\.[\w]+"></td>
+							<td class="formEmail">&lt;input type=&quot;email&quot; name=&quot;epostadresse&quot; pattern=&quot;[\w]+@[\w]+\.[\w]+&quot;&gt; *</td>
 						</tr>
 					</table>
+					<input type="submit">
 				</form>
 			</div>
 		</div>
@@ -116,8 +143,51 @@
 		
 		<div class="slide">
 			<div class="slideContent">
-				<p>...</p>
+				<h3>Resurser</h3>
+				<ul>
+					<li></li>
+				</ul>
 			</div>
 		</div>
+		
+		
+
+		<article class="slideInfo" id="formTel">
+			<h1>Forms:tel</h1>
+			<img src="images/formDemo/formTel.png">
+			<div class="innerInfo">
+				&lt;input type=&quot;tel&quot; name=&quot;telefonnummer&quot;&gt;
+			</div>
+			<span class="close">Lukk</span>
+		</article>
+		
+		<article class="slideInfo" id="formNumber">
+			<h1>Forms:number</h1>
+			<img src="images/formDemo/formNumber.png">
+			<div class="innerInfo">
+				&lt;input type=&quot;number&quot; name=&quot;nummer&quot;&gt;
+			</div>
+			<span class="close">Lukk</span>
+		</article>
+		
+		<article class="slideInfo" id="formSearch">
+			<h1>Forms:search</h1>
+			<img src="images/formDemo/formSearch.png">
+			<div class="innerInfo">
+				&lt;input type=&quot;search&quot; name=&quot;søkestreng&quot;&gt;
+			</div>
+			<span class="close">Lukk</span>
+		</article>
+		
+		<article class="slideInfo" id="formEmail">
+			<h1>Forms:email</h1>
+			<img src="images/formDemo/formEmail.png">
+			<div class="innerInfo">
+				&lt;input type=&quot;email&quot; name=&quot;epostadresse&quot; pattern=&quot;[\w]+@[\w]+\.[\w]+&quot;&gt;
+			</div>
+			<span class="close">Lukk</span>
+		</article>
+		
+		
 	</body>
 </html>

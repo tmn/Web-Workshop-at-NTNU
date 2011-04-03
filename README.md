@@ -70,4 +70,5 @@
 <h3>Nyttige lenker</h3>
 <ul>
 	<li><a href="http://jquery.com/">jQuery</a></li>
+	<li><a href="https://docs.google.com/present/view?id=dkx3qtm_22dxsrgcf4">Viewport and Media Queries - the complete idiot's guide</a></li>
 </ul>
