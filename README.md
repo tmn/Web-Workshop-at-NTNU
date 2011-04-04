@@ -3,10 +3,13 @@
 <strong>Event at <a href="https://online.ntnu.no/event/159/">https://online.ntnu.no/event/159/</a></strong></p>
 
 <h3>"Oppgaven"</h3>
-<p>
-	__Summary__: vi lager en enkel "handleliste"-applikasjon.
-	denne skal
-</p>
+<p><strong>Summary</strong>: vi lager en enkel "handleliste"-applikasjon.</p>
+<p>Krav</p>
+<p>- legge til poster i en liste (trenger ikke å kunne slette)<br>
+	- postene skal lagres lokalt<br>
+	- lista skal kunne oppdateres og leses selv uten internettforbindelse<br>
+	- tilpasses skalering av viewport (<a href="http://cl.ly/1f2j0N0d181r0q431b1F">se illustrasjon</a>)
+
 
 <strong>Vi tar for oss blant annet</strong>
 <ul>
