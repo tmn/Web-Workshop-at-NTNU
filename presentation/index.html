@@ -117,7 +117,7 @@
 						</tr>
 						<tr>
 							<td class="col1">
-								<input type="text" list="mylist" name="list">
+								<input type="text" list="minListe" name="list">
 								<datalist id="minListe">
 									<option label="Mr" value="Mister">
 									<option label="Mrs" value="Mistress">
@@ -128,7 +128,7 @@
 						</tr>
 						<tr>
 							<td class="col1"><input type="text" name="text" placeholder="placeholder text" required></td>
-							<td>&lt;input type=&quot;text&quot; name=&quot;text&quot;&gt;</td>
+							<td>&lt;input type=&quot;text&quot; name=&quot;text&quot; plceholder=&quot;placeholder text&quot;&gt;</td>
 						</tr>
 						<tr>
 							<td class="col1"><input type="email" name="email" autocomplete="off" pattern="[\w]+@[\w]+\.[\w]+"></td>
@@ -143,9 +143,100 @@
 		
 		<div class="slide">
 			<div class="slideContent">
+				<h3>CSS Transitions</h3>
+				<p>
+					
+					<style>
+					#demoTransition {
+						font-size: 12px;
+						color: #000;
+						-o-transform: rotate(0deg);
+						-o-transition-property: font-size, color;
+					
+						-o-transition-duration: 0.5s;
+						line-height: 100px;
+					}
+					#demoTransition:hover {
+						font-size: 30px;
+						color: #ff0000;
+						-o-transform: rotate(-5deg);
+						
+					}
+					</style>
+					
+					
+					<span id="demoTransition">
+						
+						Denne blir kul når du fører musa over
+						
+					</span>
+					
+					<p>
+						#demoTransition {<br>
+							font-size: 12px;<br>
+							color: #000;<br>
+							-o-transform: rotate(0deg);<br>
+							-o-transition-property: font-size, color;<br>
+
+							-o-transition-duration: 0.5s;<br>
+							line-height: 100px;<br>
+						}<br><br>
+						#demoTransition:hover {<br>
+							font-size: 30px;<br>
+							color: #ff0000;<br>
+							-o-transform: rotate(-5deg);<br>
+						}<br>
+					</p>
+					
+					<p>&nbsp;</p><p>&nbsp;</p>
+					<p><strong>Browser prefix</strong></p>
+					<ul>
+						<li>Opera: -o-</li>
+						<li>Webkit: -webkit-</li>
+						<li>Firefox: -moz-</li>
+					</ul>
+				</p>
+			</div>
+		</div>
+		
+		<div class="slide">
+			<div class="slideContent">
+				<h3>Media Queries</h3>
+				<p>"Endre visning uten å endre innhold"</p>
+				<p>
+					@media all and (max-width: 660px) {<br>
+						...<br>
+					}
+				</p>
+				<p>
+					@media all and (max-width: 480px) {<br>
+						...<br>
+					}
+				</p>
+					@media all and (max-width: 320px) {<br>
+						...<br>
+					}
+				</p>
+				<p><strong>Demo</strong></p>
+				<ul>
+					<li><a href="http://people.opera.com/danield/css3/vangogh/">MQ #1</a></li>
+					<li><a href="http://people.opera.com/brucel/demo/background-size.html">MQ #2</a></li>
+					<li><a href="http://people.opera.com/andreasb/demos/demos_svgopen2009/svgscalebasic.html">SVG + MQ #1</a></li>
+					<li><a href="http://people.opera.com/andreasb/demos/demos_svgopen2009/svgscalelogo.html">SVG + MQ #2</a></li>
+				</ul>
+			</div>
+		</div>
+
+		
+		<div class="slide">
+			<div class="slideContent">
 				<h3>Resurser</h3>
 				<ul>
-					<li></li>
+					<li><a href="http://dev.opera.com/articles/view/offline-applications-html5-appcache/">AppCache</a></li>
+					<li><a href="http://html5demos.com/">HTML5demos</a></li>
+					<li><a href="http://dev.opera.com/articles/view/css3-transitions-and-2d-transforms/">CSS3 transitions and 2D transforms</a></li>
+					<li><a href="https://github.com/tmn/Web-Workshop-at-NTNU">github</a></li>
+					<li><a href="http://jquery.com/">jQuery</a></li>
 				</ul>
 			</div>
 		</div>

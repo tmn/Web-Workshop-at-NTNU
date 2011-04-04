@@ -2,14 +2,12 @@
 <p><strong>by</strong> <a href="mailto:trimn@myopera.com">Tri M. Nguyen</a> - 4. April 2011<br>
 <strong>Event at <a href="https://online.ntnu.no/event/159/">https://online.ntnu.no/event/159/</a></strong></p>
 
-<p>Vi benytter oss av NTNUs nye emnedata-APIer (forslag - Tri må mekke JSON-parser-ish-sak i JS først)<br>
-	- <a href="http://www.ime.ntnu.no/api/emne/">Emne-API (BETA)</a></p>
-<ul>
-	<li>Remote debugging på device. Aktuelt for de med Android-telefoner.<br>
-		- du trenger <a href="https://market.android.com/details?id=com.opera.browser&amp;feature=search_result">Opera Mobile</a> og <a href="http://www.opera.com/browser/">Opera for desktop</a></li>
-	<li>Remote debugging med Opera Mobile emulator for desktop<br>
-		- <a href="http://www.opera.com/developer/tools/">Opera Developer tools</a></li>
-</ul>
+<h3>"Oppgaven"</h3>
+<p>
+	__Summary__: vi lager en enkel "handleliste"-applikasjon.
+	denne skal
+</p>
+
 <strong>Vi tar for oss blant annet</strong>
 <ul>
 	<li>HTML Forms</li>
@@ -18,6 +16,13 @@
 	<li>Media queries</li>
 	<li>CSS3 transitions</li>
 	<li>Local storage</li>
+</ul>
+
+<ul>
+	<li>Remote debugging på device. Aktuelt for de med Android-telefoner.<br>
+		- du trenger <a href="https://market.android.com/details?id=com.opera.browser&amp;feature=search_result">Opera Mobile</a> og <a href="http://www.opera.com/browser/">Opera for desktop</a></li>
+	<li>Remote debugging med Opera Mobile emulator for desktop<br>
+		- <a href="http://www.opera.com/developer/tools/">Opera Developer tools</a></li>
 </ul>
 
 

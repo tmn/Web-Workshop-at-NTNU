@@ -1,0 +1,16 @@
+
+
+#newEventField {
+	opacity: 0;
+	background: #DDD;
+	padding: 10px;
+	-o-transform: scale(0, 0);
+	-o-transition-delay: 0.25s;
+	-o-transition-duration: 0.25s;
+}
+
+#newEventField.visible {
+	opacity: 1;
+	-o-transform: scale(1, 1);
+	-o-transition-duration: 0.25;
+}
