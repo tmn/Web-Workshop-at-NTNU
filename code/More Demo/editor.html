@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<script src="jquery-1.5.2.min.js"></script>
+<script>
+
+$(window).ready(function() {
+	
+	if (localStorage.getItem('minEditor')) {
+		$('#minEditor').html(localStorage.getItem('minEditor'));
+	}
+	
+	$('#minEditor').live('keyup', function() {
+		localStorage.setItem('minEditor', this.innerHTML);
+	});
+	
+});
+
+</script>
+
+<input type="date" name="yo">
+
+<ul id="minEditor" contenteditable="true">
+	<p>Some text</p>
+</ul>
