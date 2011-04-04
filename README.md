@@ -9,7 +9,7 @@
 	- postene skal lagres lokalt<br>
 	- lista skal kunne oppdateres og leses selv uten internettforbindelse<br>
 	- tilpasses skalering av viewport (<a href="http://cl.ly/1f2j0N0d181r0q431b1F">se illustrasjon</a>)
-
+<br>
 
 <strong>Vi tar for oss blant annet</strong>
 <ul>
